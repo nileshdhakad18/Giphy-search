@@ -1,0 +1,92 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#searchButton {
+    padding: 0.5rem 1rem;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #e05252;
+}
+
+#gifContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* Styling for individual GIFs */
+img {
+    max-width: 100%;
+    margin: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* style.css */
+
+/* Color Variables */
+:root {
+    --primary-color: #3498db;  /* Blue */
+    --secondary-color: #e74c3c;  /* Red */
+    --background-color: #f0f0f0;  /* Light Gray */
+}
+
+/* Rest of your existing styles */
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    /* ... */
+}
+
+#searchButton {
+    background-color: var(--secondary-color);
+    /* ... */
+}
+
+/* ... */
